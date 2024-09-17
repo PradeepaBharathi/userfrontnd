@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const base_url = 'http://localhost:9000';
+const base_url = 'https://userbackend-5war.onrender.com';
 
 
 const getToken = () => {
@@ -82,8 +82,7 @@ export const editUser = createAsyncThunk(
             },
           }
         );
-        console.log(response.data.message);
-      toast.success(response.data.message)
+  
 
         return response.data.user; 
       } catch (error) {
@@ -114,7 +113,7 @@ export const editUser = createAsyncThunk(
           }
         );
         console.log(response.data);
-        console.log(response.data.message);
+
 
         return response.data.user; 
       } catch (error) {
