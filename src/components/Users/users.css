@@ -1,0 +1,15 @@
+.users-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-top: 20px;
+   padding: 40px;
+}
+
+.btn-list{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+.edit-form {
+    width: 400px;
+    background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 64px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px 2px rgb(0, 0, 0, 0.5);
+    padding: 30px;
+  }
